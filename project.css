@@ -1,0 +1,47 @@
+/*---emojies---*/
+.emojies1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+    perspective: 1000px;
+}
+.emojies img{
+    width: 150p;
+    height: auto;
+}
+.img1{
+    animation: roll1 2s ease infinite;
+}
+.img2{
+    animation: roll2 2s ease infinite;
+}
+.img3{
+    animation: roll3 2s ease infinite;
+}
+.img4{
+    animation: roll4 2s ease infinite;
+}
+.img5{
+    animation: roll5 2s ease infinite;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 375px) {
+    /*---emojies---*/
+.emojies1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    gap: 20px;
+    perspective: 1000px;
+}
+.emojies1 img{
+    width: 50px;
+    height: auto;
+}
+}
