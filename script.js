@@ -66,6 +66,31 @@ function closemodal(){
 
 
 }
+document.oncontextmenu = () => {
+  alert(" Don' try to right click")
+  return false
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F12") {
+    e.preventDefault();
+    alert("Don't try to inspect element");
+  }
+  if (e.ctrlKey && e.key == "u"){
+    alert("Huwag Po");
+    return false
+  }
+  if(e.ctrlKey && e.key == "c"){
+    alert("Naku Bawal mangopya");
+    return false
+  }
+  if (e.ctrlKey && e.key == "V"){
+    alert("Hay Naku");
+    return false
+  }
+
+});
+
 window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
