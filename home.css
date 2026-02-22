@@ -78,8 +78,8 @@ body.loaded {
         hue-rotate(2deg)
         brightness(105%)
         contrast(105%)
-        drop-shadow(0 0 6px yellow)
-        drop-shadow(0 0 12px gold);
+        drop-shadow(0 0 6px #F7F7F7)
+        drop-shadow(0 0 12px #F6AC44);
 }
 .lite-out{
     display: none;
