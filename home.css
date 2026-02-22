@@ -175,7 +175,7 @@ nav li:hover a {
 }
 
 nav  li:first-child a{
-    background-color: var(--font-primary);
+    font-weight:600px;
     color: var(--font-lite);
     border-radius: 20px;
     padding:.5em .5em;
