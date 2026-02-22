@@ -66,6 +66,11 @@ function closemodal(){
 
 
 }
+
+
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+});
 document.oncontextmenu = () => {
   alert(" Don' try to right click")
   return false
@@ -89,8 +94,4 @@ document.addEventListener("keydown", (e) => {
     return false
   }
 
-});
-
-window.addEventListener('load', () => {
-    document.body.classList.add('loaded');
 });
