@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m28.13 0v9.38l-6.25-0.01v-9.37z"/>
+	<path fill-rule="evenodd" class="s0" d="m28.13 40.63v9.37h-6.25v-9.38z"/>
+	<path fill-rule="evenodd" class="s0" d="m25 34.38c-5.18-0.01-9.38-4.2-9.38-9.38 0.01-5.18 4.2-9.38 9.38-9.38 5.18 0 9.38 4.2 9.38 9.38-0.01 5.18-4.2 9.37-9.38 9.37z"/>
+	<path fill-rule="evenodd" class="s0" d="m9.38 21.88l-0.01 6.25h-9.37v-6.25z"/>
+	<path fill-rule="evenodd" class="s0" d="m50 21.88v6.25h-9.38l0.01-6.25z"/>
+	<path class="s0" d="m11.74 16.16l-6.63-6.63 4.42-4.42 6.63 6.63z"/>
+	<path class="s0" d="m38.26 33.84l6.63 6.63-4.42 4.42-6.63-6.63z"/>
+	<path class="s0" d="m9.53 44.89l6.63-6.63-4.42-4.42-6.63 6.63z"/>
+	<path class="s0" d="m40.47 5.11l-6.63 6.63 4.42 4.42 6.63-6.63z"/>
+</svg>
