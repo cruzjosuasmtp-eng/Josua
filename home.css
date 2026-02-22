@@ -72,7 +72,14 @@ body.loaded {
    --image-filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(429%) hue-rotate(167deg) brightness(107%) contrast(109%);
 }
 .lite-on{
-    filter: grayscale(1);
+    filter:brightness(0) saturate(100%)
+        invert(84%) sepia(87%)
+        saturate(748%)
+        hue-rotate(2deg)
+        brightness(105%)
+        contrast(105%)
+        drop-shadow(0 0 6px yellow)
+        drop-shadow(0 0 12px gold);
 }
 .lite-out{
     display: none;
@@ -82,8 +89,8 @@ body.loaded {
         hue-rotate(2deg)
         brightness(105%)
         contrast(105%)
-        drop-shadow(0 0 6px yellow)
-        drop-shadow(0 0 12px gold);
+        drop-shadow(0 0 6px rgb(235, 235, 205))
+        drop-shadow(0 0 12px rgb(137, 134, 117));
 }
 .wrapper-side{
     container-type: inline-size;
@@ -321,7 +328,7 @@ nav  li:first-child a{
     position: relative;   /* Required for z-index to work */
     z-index: 1;
     margin-top: -100px;
-    animation: wiggle 2s infinite linear;
+    animation: wiggle 5s infinite linear;
     
    
    
@@ -518,7 +525,7 @@ nav  li:first-child a{
     animation: gradient 3s linear infinite;
 }
 .cp{
-   animation: rotate 2s infinite linear;
+   animation: rotate 5s infinite linear;
    display: inline-block;
 }
 .laydown{
