@@ -176,7 +176,7 @@ nav li:hover a {
 
 nav  li:first-child a{
     font-weight:600;
-    color: var(--font-lite);
+    color: var(--font-primary);
     border-radius: 20px;
     padding:.5em .5em;
     font-size: clamp(12px, 1rem, 2rem);
