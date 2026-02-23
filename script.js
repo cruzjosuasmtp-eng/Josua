@@ -77,10 +77,7 @@ document.oncontextmenu = () => {
 }
 
 document.addEventListener("keydown", (e) => {
-  if (e.key === "F12") {
-    e.preventDefault();
-    alert("Don't try to inspect element");
-  }
+ 
   if (e.ctrlKey && e.key == "u"){
     alert("Huwag Po");
     return false
